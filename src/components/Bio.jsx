@@ -11,13 +11,13 @@ class Bio extends React.Component {
 
   render(){
     let interestChips = [];
-    let interests = ['React', 'React Native', 'Interactive Mobile Development', 'GeoLocation', 'Mapping'];
+    let interests = ['React', 'React Native', 'Interactive Mobile Development', 'GeoLocation', 'Mapping', 'Agile'];
        interestChips = interests.map((interest, index) => {
         return <Chip className='theme' color='primary'  key={index} label={interest} />
       });
 
     let skillsChips = [];
-    let skills = ['Html', 'CSS', 'JavaScript', 'React.js', 'Redux', 'React Native', 'Firebase', 'Angular.js', 'RESTful routing', 'Google Maps API'];
+    let skills = ['Html', 'CSS', 'JavaScript', 'React.js', 'Redux', 'React Native', 'Firebase', 'Angular.js', 'RESTful routing', 'Google Maps API', 'Git'];
     skillsChips = skills.map((skill, index) => {
      return <Chip className='theme' color='secondary'  key={index} label={skill} />
    });
