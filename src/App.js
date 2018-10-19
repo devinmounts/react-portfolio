@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Navigation from './components/Navigation';
 import Bio from './components/Bio';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Landing />
           <Bio />
           <Portfolio />
+          <Contact />
       </div>
     );
   }
