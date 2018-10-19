@@ -1,6 +1,7 @@
 import React from 'react'
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
-const Navbar = props => {
+const Navigation = props => {
   return(
     <Navbar inverse collapseOnSelect>
       <Navbar.Header>
@@ -34,8 +35,8 @@ const Navbar = props => {
           </NavItem>
         </Nav>
       </Navbar.Collapse>
-    </Navbar>  
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default Navigation;
