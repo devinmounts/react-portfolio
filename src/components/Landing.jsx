@@ -1,10 +1,14 @@
 import React from 'react'
+import './../styles/Landing.css';
 
 const Landing = props => {
   return(
-    <div>
-      Landing Works
+    <div className='landing'>
+      <div className='landing-image'>
+
+      </div>
     </div>
+
   );
 }
 
