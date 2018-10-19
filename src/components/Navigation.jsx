@@ -1,9 +1,10 @@
 import React from 'react'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import './../styles/Navigation.css';
 
 const Navigation = props => {
   return(
-    <Navbar inverse collapseOnSelect>
+    <Navbar inverse collapseOnSelect className='navigation'>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="#brand">Devin Mounts</a>

@@ -1,0 +1,10 @@
+.navigation {
+  margin: 0;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.nav-header {
+  background-color: white;
+  color: black;
+}

@@ -1,8 +1,6 @@
 .landing {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-}
-
-.landing-image {
-  background-image: url('./../assets/images/landing.jpg');
+  background-image: url('./../assets/images/landing1.jpg');
+  background-size: cover;
 }

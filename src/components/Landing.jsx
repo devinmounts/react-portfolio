@@ -5,7 +5,6 @@ const Landing = props => {
   return(
     <div className='landing'>
       <div className='landing-image'>
-
       </div>
     </div>
 
