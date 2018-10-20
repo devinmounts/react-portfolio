@@ -14,7 +14,6 @@ class App extends Component {
     this.handleScrollToComponent = this.handleScrollToComponent.bind(this);
     this.state = {
       selectedComponent: null,
-      refComponent: null
     }
   }
 
@@ -23,27 +22,25 @@ class App extends Component {
     switch (component) {
       case 'this.Bio':
         newSelectedComponent = this.Bio
-        return this.setState({
+        this.setState({
           selectedComponent: newSelectedComponent
         });
         break;
       case 'this.Portfolio':
       newSelectedComponent = this.Portfolio
-      return this.setState({
+      this.setState({
         selectedComponent: newSelectedComponent
       });
-        break;
+      break;
       case 'this.Contact':
       newSelectedComponent = this.Contact
-      return this.setState({
+      this.setState({
         selectedComponent: newSelectedComponent
       });
-        break;
+      break;
       default:
-
-  }
-
-    scrollToComponent(this.state.selectedComponent, {align: 'top'})
+    }
+    scrollToComponent(this.state.selectedComponent, {align: 'top'});
   }
   render() {
     console.log(this.state);
