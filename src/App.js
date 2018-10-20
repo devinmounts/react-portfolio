@@ -41,8 +41,10 @@ class App extends Component {
       default:
     }
   }
+  componentDidUpdate(){
+    scrollToComponent(this.state.selectedComponent, {offset: -40, align: 'top'});
+  }
   render() {
-    scrollToComponent(this.state.selectedComponent, {align: 'top'});
     let component;
     return (
       <div>
