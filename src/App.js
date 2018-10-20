@@ -40,10 +40,9 @@ class App extends Component {
       break;
       default:
     }
-    scrollToComponent(this.state.selectedComponent, {align: 'top'});
   }
   render() {
-    console.log(this.state);
+    scrollToComponent(this.state.selectedComponent, {align: 'top'});
     let component;
     return (
       <div>
