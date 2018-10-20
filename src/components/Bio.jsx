@@ -11,7 +11,7 @@ class Bio extends React.Component {
 
   render(){
     let interestChips = [];
-    let interests = ['React', 'React Native', 'Interactive Mobile Development', 'GeoLocation', 'Mapping', 'Agile'];
+    let interests = ['JavaScript','React.js', 'React Native', 'Interactive Mobile Development', 'Angular.js', 'GeoLocation', 'Mapping', 'Agile'];
        interestChips = interests.map((interest, index) => {
         return <Chip className='theme' color='primary'  key={index} label={interest} />
       });
