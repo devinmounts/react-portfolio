@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import NewsImg from './../assets/images/news-agg.png';
 import AirBnB from './../assets/images/airbnb.png';
 import Hair from './../assets/images/hair.png';
-
+import FuelImg from '../assets/images/fuel_finder.png';
 class Portfolio extends React.Component {
 
   render(){
@@ -19,6 +19,37 @@ class Portfolio extends React.Component {
         <header className='header'>
           Portfolio
         </header>
+        <Card className='portfolio-card'>
+          <CardActionArea>
+            <CardMedia
+              className='media'
+              image={FuelImg}
+              title="Fuel Finder"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Fuel Finder
+              </Typography>
+              <Typography component="p">
+                <strong>React/Redux  Node/MongoDB:</strong>
+                  <br/>
+                  * React/Redux API consumption using Leaflet Maps
+                  <br/>
+                  * Express API & MongoDB CRUD
+                  <br/>
+                  * Firebase User Authentication
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+            <CardActions>
+              <a href='https://www.chargemyengine.com'><Button size="small" color="primary">
+                Deployed Site
+              </Button></a>
+            <a href='https://github.com/devinmounts/fuel_finder'><Button size="small" color="primary">
+                Git Hub Repo
+              </Button></a>
+            </CardActions>
+          </Card>
         <Card className='portfolio-card'>
           <CardActionArea>
             <CardMedia
