@@ -5,6 +5,7 @@
 
 .landing-image {
   background-image: url('./../assets/images/landing1.jpg');
+  background-position: bottom;
   background-size: cover;
   object-fit: contain;
   width: auto;
