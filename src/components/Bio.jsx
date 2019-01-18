@@ -30,7 +30,7 @@ class Bio extends React.Component {
         <Card className='content-div'>
           <CardContent>
             <Typography variant='h3'>What I'm up to</Typography>
-            <Typography variant='h5'>A recent grad of Epicodus, specializing in <strong>Javascript</strong> and <strong>React</strong>.  I am a passionate about growing as a front-end developer. I enjoy consuming APIs and managing state with React and Redux. When I'm not calling on APIs, creating realtime databases or exploring digital cartography, you can find me enjoying a grassy spot at the park, planting in the garden, and working in youth mentorship.. I am inspired by projects such as <a href='https://www.native.io/industries/international_development'>these</a>.</Typography>
+            <Typography variant='h5'>A recent grad of Epicodus, specializing in <strong>Javascript</strong> and <strong>React</strong>.  I am a passionate about growing as a front-end developer. I enjoy consuming APIs and managing state with React and Redux. When I'm not calling on APIs, creating realtime databases or exploring digital cartography, you can find me enjoying a grassy spot at the park, planting in the garden, and working in youth mentorship. I am inspired by projects such as <a href='https://www.native.io/industries/international_development'>these</a>.</Typography>
           </CardContent>
         </Card>
         <Card className='content-div'>
